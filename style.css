@@ -10,6 +10,8 @@ body {
   
 }
 
+
+
 /*============================Cabeçalho============================*/
 
 header {
@@ -31,6 +33,120 @@ header h1 {
   margin-top: 40px;
   border-radius: 900px; 
   border: 5px solid #000000;
- 
+}
 
+.Subtitulo01 {
+     flex-direction: column; /* <<<--- ESTA É A LINHA QUE VOCÊ PRECISA ADICIONAR */
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     min-height: 1vh;
+     min-width: 50vh;  
+     background-color: rgb(255, 255, 255);
+     color: #000000;
+     width: 1%; /* Ocupa 90% da largura da tela em dispositivos pequenos */
+     max-width: 800px;
+     border-radius: 90px;
+     margin-bottom: 0.1rem;
+     margin-top: 40px
+}
+
+.Ingredientes ul {
+  display: flex; /* Flexbox para os itens ficarem em linha */
+  flex-wrap: wrap; /* Faz os itens quebrarem para a linha seguinte se não cabem */
+  gap: 20px; /* Espaçamento entre os itens */
+  list-style-type: none; /* Remove o marcador padrão das listas */
+  padding: 0;
+  margin: 0;
+  justify-content: center; /* Alinha os itens no centro da tela */
+  margin-top: 40px
+}
+
+.Ingredientes li {
+  display: flex; /* Flexbox dentro do item */
+  flex-direction: column; /* Organiza título e imagem em coluna */
+  justify-content: center;
+  align-items: center;
+  width: 200px; /* Largura fixa para cada item */
+  height: 200px; /* Altura fixa para cada item */
+  border: 2px solid #ddd; /* Borda do item */
+  border-radius: 8px; /* Bordas arredondadas */
+  background-color: white; /* Fundo branco */
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: transform 0.3s ease; /* Efeito de hover */
+  color: #000;
+}
+
+.Ingredientes li:hover {
+  transform: scale(1.05); /* Aumenta o tamanho ao passar o mouse */
+}
+
+.Ingredientes li h3 {
+  margin: 10px 0; /* Espaçamento acima e abaixo do título */
+}
+
+.Ingredientes li img {
+  max-width: 100%; /* Imagem vai ajustar automaticamente */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+.passo-a-passo {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  padding: 20px;
+  position: relative; /* Para posicionar o fundo */
+  margin-top: 40xp;
+}
+
+.passo-a-passo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.623); /* Fundo preto com 30% de opacidade */
+  z-index: -1; /* Coloca o fundo atrás do conteúdo */
+  border-radius: 10px; /* Borda arredondada para o fundo */
+}
+
+.passo-a-passo h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.passo-a-passo ol {
+  margin-left: 20px;
+}
+
+.passo-a-passo li {
+  margin-bottom: 20px;
+}
+
+.passo-a-passo h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #b31500;
+}
+
+.passo-a-passo p {
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.passo-a-passo strong {
+  font-weight: bold;
+  color: #000000;
+}
+
+.FotoVideo img {
+  width: 700px; /* Define a largura da foto */
+  height: 400px; /* Define a altura da foto */
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px ;
 }
