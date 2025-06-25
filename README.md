@@ -12,7 +12,7 @@ Este projeto é um exemplo de como as habilidades em **HTML5** e **CSS3** podem 
   - **Transparência no fundo**: Para melhorar a legibilidade do texto em um fundo colorido ou complexo.
   - **Responsividade**: O design se adapta a diferentes tamanhos de tela, proporcionando uma boa experiência tanto em desktop quanto em dispositivos móveis.
 
-## 🌐 Visual do Site
+### 🌐 Visual do Site 
 
 O layout do site é baseado em um design simples e elegante, focado na legibilidade e funcionalidade. A estrutura principal inclui:
 
@@ -26,6 +26,15 @@ O layout do site é baseado em um design simples e elegante, focado na legibilid
 2. **Imagens dos Ingredientes**: Cada ingrediente possui uma imagem associada para tornar o site mais visual e interativo.
 3. **Layout Responsivo**: O design do site se ajusta automaticamente para dispositivos móveis e desktops.
 
+##  Tela Cabeçalho:
 
-![Texto alternativo](imagens/FotoLagosta.jpg)
+![Texto alternativo](imagens/TelaSite01.png)
+##
+![Texto alternativo](imagens/TelaSite02.png)
 
+##  Seção Ingredientes:
+![Texto alternativo](imagens/TelaSite03.png)
+##  Seção Modo de Preparo:
+![Texto alternativo](imagens/TelaSite04.png)
+## Seção video do preparo
+![Texto alternativo](imagens/TelaSite05.png)
